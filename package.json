@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.1.3",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "WWVERSE-Launcher",
+    "preductname": "WWVERSE Launcher",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour le serveur WWVERSE",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, wonderr, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://217.154.26.129",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/wonderr1000/wwverse-Launcher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^30.5.1",
+        "electron": "^38.1.2",
         "electron-builder": "^26.0.12",
         "javascript-obfuscator": "^4.1.0",
         "jimp": "^0.22.12",
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/wonderr1000/wwverse-Launcher.git"
     }
 }
