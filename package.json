@@ -1,7 +1,7 @@
 {
     "name": "wwverse-launcher",
     "preductname": "wwverse launcher",
-    "version": "1.1.5",
+    "version": "1.0.0",
     "description": "Launcher Mincraft pour le serveur WWVERSE",
     "main": "src/app.js",
     "author": {
@@ -24,13 +24,14 @@
     "dependencies": {
         "electron-updater": "^6.1.8",
         "minecraft-java-core": "^4.1.4",
+        "node-abi": "^4.14.0",
         "node-bdd": "^2.0.4",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^38.1.2",
+        "electron": "^30.5.1",
         "electron-builder": "^26.0.12",
         "javascript-obfuscator": "^4.1.0",
         "jimp": "^0.22.12",
