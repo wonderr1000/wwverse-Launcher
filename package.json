@@ -1,7 +1,7 @@
 {
-    "name": "WWVERSE-Launcher",
-    "preductname": "WWVERSE Launcher",
-    "version": "1.0.1",
+    "name": "WWVERSE",
+    "preductname": "WWVERSE",
+    "version": "1.0.2",
     "description": "Launcher Mincraft pour le serveur WWVERSE",
     "main": "src/app.js",
     "author": {
